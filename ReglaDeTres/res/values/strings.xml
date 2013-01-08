@@ -1,0 +1,10 @@
+<resources>
+
+    <string name="app_name">Regla de Tres</string>
+    <string name="title_activity_main">ReglaDeTres</string>
+    <string name="default_value">0</string>
+    <string name="btn_calculate">Calculate</string><string name="arrow">=&gt;</string>
+    
+    <string name="unknown">x</string>
+
+</resources>
