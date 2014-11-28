@@ -110,6 +110,22 @@ public class ReglaDeTres extends Activity {
 			e.printStackTrace();
 		}
 	}
+	/**
+	 * Cleans all input fields
+	 * @param v
+	 */
+	public void processReset(View v) {
+		TextView incognita =(TextView) findViewById(R.id.incognita);
+		incognita.setTextColor(Color.BLACK);
+		Log.e(debugTag, "Inside processReset()");
+
+		txtValue1.setText("");
+		txtValue2.setText("");
+		txtValue3.setText("");
+		incognita.setText("");
+		// Return focus to the first input field
+		txtValue1.requestFocus();
+	}
 
 	@Override
 	public void onRestoreInstanceState(Bundle savedInstanceState) {

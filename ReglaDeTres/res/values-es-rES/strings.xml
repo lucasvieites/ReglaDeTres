@@ -6,5 +6,6 @@
     <string name="btn_calculate">Calcular</string><string name="arrow">=&gt;</string>
     
     <string name="unknown">x</string>
+    <string name="btn_reset">Limpiar</string>
 
 </resources>
