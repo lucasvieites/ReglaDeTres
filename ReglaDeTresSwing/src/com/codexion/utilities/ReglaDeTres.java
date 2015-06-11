@@ -22,7 +22,7 @@ import java.awt.event.ActionListener;
 /**
  * ReglaDeTres provides a simple GUI to perform cross-multiplications by means 
  * of the Rule Of Three
- * @author e288288
+ * @author Lucas Vieites <lucas@codexion.com>
  * @see http://en.wikipedia.org/wiki/Rule_of_three_%28mathematics%29#Rule_of_Three
  *
  */
