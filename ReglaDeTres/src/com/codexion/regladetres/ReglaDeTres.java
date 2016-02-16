@@ -42,17 +42,6 @@ public class ReglaDeTres extends Activity {
 			Log.e(debugTag, "Error retrieving initial values");
 			e.printStackTrace();
 		}
-/*
-		// Get the current values
-		try {
-			value1 = Integer.parseInt((String) txtValue1.getText());
-			value2 = Integer.parseInt((String) txtValue2.getText());
-			value3 = Integer.parseInt((String) txtValue3.getText());
-		} catch (NumberFormatException e) {
-			Log.e(debugTag, "NumberFormat exception");
-			e.printStackTrace();
-		}
-*/
 	}
 
 	public void processCalculate(View v) {
@@ -112,7 +101,7 @@ public class ReglaDeTres extends Activity {
 	}
 	/**
 	 * Cleans all input fields
-	 * @param v
+	 * @param v Contains the current View
 	 */
 	public void processReset(View v) {
 		TextView incognita =(TextView) findViewById(R.id.incognita);
